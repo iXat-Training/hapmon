@@ -1,0 +1,8 @@
+<aspectj>
+	<aspects>
+		<aspect name="com.hapmon.mapreduce.aspects.Perf1" />
+	</aspects>
+	<weaver
+		options="-verbose -Xset:weaveJavaxPackages=true -set:weaveJavaPackages=true">
+	</weaver>
+</aspectj>
